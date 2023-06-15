@@ -1,0 +1,26 @@
+deployments:
+- name: buy_deployment
+  version: null
+  tags: []
+  description: null
+  schedule: {}
+  flow_name: null
+  entrypoint: buy.py:buy
+  parameters: {}
+  work_pool:
+    name: local-work
+    work_queue_name: null
+    job_variables: {}
+
+- name: sell_deployment
+  version: null
+  tags: []
+  description: null
+  schedule: {}
+  flow_name: null
+  entrypoint: sell.py:sell
+  parameters: {}
+  work_pool:
+    name: local-work
+    work_queue_name: null
+    job_variables: {}

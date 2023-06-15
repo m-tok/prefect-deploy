@@ -1,0 +1,4 @@
+{
+  "buy": "buy.py:buy",
+  "sell": "sell.py:sell"
+}
