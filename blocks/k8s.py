@@ -1,3 +1,4 @@
+
 from prefect.infrastructure import KubernetesJob, KubernetesImagePullPolicy
 
 k8s_job = KubernetesJob(
@@ -6,4 +7,4 @@ k8s_job = KubernetesJob(
     image_pull_policy=KubernetesImagePullPolicy.IF_NOT_PRESENT,
 )
 
-k8s_job.save("test-k8s-job",overwrite=True )
+k8s_job.save("k8s",overwrite=True )
