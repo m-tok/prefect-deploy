@@ -6,7 +6,7 @@ from prefect.infrastructure.kubernetes import KubernetesJob
 
 kubernetes_job_block = KubernetesJob.load("k8s")
 
-from flows.dog_flow import dog
+from ..flows.dog_flow import dog
 from prefect.deployments import Deployment
 
 deployment = Deployment.build_from_flow(
