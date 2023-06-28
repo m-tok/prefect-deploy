@@ -17,7 +17,7 @@ deployment = Deployment.build_from_flow(
     infrastructure= kubernetes_job_block,
 #   path= "/deploy/dog_example/"
 #   version=1, 
-#   work_queue_name="default",
+    work_queue_name="default",
 #   work_pool_name="hello"
 
 )
