@@ -18,7 +18,7 @@ deployment = Deployment.build_from_flow(
 #   path= "/deploy/dog_example/"
 #   version=1, 
     work_queue_name="demo",
-#   work_pool_name="default-agent-pool"
+    work_pool_name="hello"
 
 )
 
