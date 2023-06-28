@@ -15,7 +15,7 @@ deployment = Deployment.build_from_flow(
     parameters= {"num_barks": 7},
     storage= github_block,
     infrastructure= kubernetes_job_block,
-    path= "/deploy/dog_example/"
+#   path= "/deploy/dog_example/"
 
 )
 
