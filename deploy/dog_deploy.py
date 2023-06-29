@@ -1,6 +1,6 @@
 from prefect.filesystems import GitHub
 
-github_block = GitHub.load("githubk8s")
+github_block = GitHub.load("my-git-repo")
 
 from prefect.infrastructure.kubernetes import KubernetesJob
 
