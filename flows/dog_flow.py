@@ -1,6 +1,6 @@
-#from prefect.infrastructure.kubernetes import KubernetesJob
+from prefect.infrastructure.kubernetes import KubernetesJob
 
-#kubernetes_job_block = KubernetesJob.load("k8s")
+kubernetes_job_block = KubernetesJob.load("k8s")
 from prefect import flow, task, get_run_logger
 
 @task
