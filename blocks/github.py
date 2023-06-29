@@ -1,7 +1,7 @@
 from prefect.filesystems import GitHub
 
 block = GitHub(
-    repository=f"https://github.com/organization/repo.git",
+    repository=f"https://github.com/m-tok/prefect-deploy.git",
     reference="main",
     access_token="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",
 )
